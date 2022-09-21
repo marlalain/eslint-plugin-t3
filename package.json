@@ -1,0 +1,29 @@
+{
+  "name": "eslint-plugin-t3",
+  "version": "0.2.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsup src/index.ts --clean --sourcemap --minify --metafile"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/minsk-dev/eslint-plugin-t3.git"
+  },
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/minsk-dev/eslint-plugin-t3/issues"
+  },
+  "homepage": "https://github.com/minsk-dev/eslint-plugin-t3#readme",
+  "devDependencies": {
+    "@types/node": "^18.7.18",
+    "@typescript-eslint/eslint-plugin": "^5.37.0",
+    "@typescript-eslint/parser": "^5.37.0",
+    "@typescript-eslint/typescript-estree": "^5.37.0",
+    "eslint": "^8.23.1",
+    "typescript": "^4.8.3",
+    "tsup": "^6.2.3"
+  },
+  "dependencies": {
+    "@typescript-eslint/utils": "^5.37.0"
+  }
+}
